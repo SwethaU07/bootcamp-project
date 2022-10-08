@@ -1,0 +1,87 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+#leftnav{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#contact{
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-weight: 900;
+    border:3px solid transparent;
+    background-color: #2eb086;
+    color: #313552;
+    transition: 0.4s;
+}
+#contact:hover{
+    background-color: #313552;
+    color: #2eb086;
+    border: solid 3px #2eb086;
+}
+#nav{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+#head{
+    background-color:#313552;;
+    height: 100vh;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 86%);
+}
+#logo{
+    mix-blend-mode: multiply;
+}
+#anchor a{
+    color: #f0f0f0;
+    text-decoration: none;
+    margin-left: 30px;
+    align-items: center;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+#anchor a:hover{
+    color: #2eb086;
+}
+#lefthero{
+    mix-blend-mode:multiply;
+}
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#righthero{
+    font-family: Century Gothic;
+    margin-right: 60px;
+    text-align: right;
+    color: #f0f0f0;
+    width: 500px;
+}
+.leftrightspace{
+    margin-inline: auto;
+}
+#righthero h6{
+    color: #b8405e;
+}
+#righthero h1 span{
+    color: #2eb086;
+}
+#righthero #view:hover{
+    border:3px solid #313552;
+    color: #313552;
+    background-color: #2eb086;
+}
+#righthero #view{
+    transition: 0.4s;
+    margin-top: 10px;
+    border: 1px solid #2eb086;
+    color: #2eb086;
+    background-color: #313552;
+    padding: 10px 20px;
+    font-family: century gothic;
+    font-weight: 900;
+}
